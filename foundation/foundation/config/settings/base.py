@@ -34,6 +34,14 @@ FOUNDATION_APPS = [
     'foundation.apps.messaging.apps.MessagingConfig',
     'foundation.apps.moderation.apps.ModerationConfig',
     'foundation.apps.core.apps.CoreConfig',
+    # Phase 1 & 2 additions
+    'foundation.apps.billing.apps.BillingConfig',
+    'foundation.apps.notifications.apps.NotificationsConfig',
+    'foundation.apps.rate_limiting.apps.RateLimitingConfig',
+    'foundation.apps.feature_flags.apps.FeatureFlagsConfig',
+    'foundation.apps.files.apps.FilesConfig',
+    'foundation.apps.data_exchange.apps.DataExchangeConfig',
+    'foundation.apps.search.apps.SearchConfig',
 ]
 
 # Django built-in apps

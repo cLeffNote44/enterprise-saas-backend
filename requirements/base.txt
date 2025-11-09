@@ -39,3 +39,28 @@ django-prometheus>=2.4.0
 # Utilities
 python-dateutil>=2.8.0
 requests>=2.31.0
+
+# Phase 1 & 2 Additions
+
+# Billing (Stripe)
+stripe>=7.0.0
+
+# Notifications
+twilio>=8.10.0  # SMS notifications
+sendgrid>=6.11.0  # Email service
+
+# File processing
+python-magic>=0.4.27  # File type detection
+pyclamd>=0.4.0  # ClamAV integration (optional)
+
+# Data exchange
+openpyxl>=3.1.0  # Excel support
+pandas>=2.1.0  # Data processing
+
+# Search (optional backends)
+# elasticsearch>=8.11.0  # Uncomment if using Elasticsearch
+# opensearch-py>=2.4.0  # Uncomment if using OpenSearch
+
+# Additional utilities
+python-slugify>=8.0.0  # Slug generation
+hashids>=1.3.0  # ID obfuscation

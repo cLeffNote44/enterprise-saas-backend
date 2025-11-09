@@ -37,7 +37,16 @@ urlpatterns = [
     path('api/analytics/', include('foundation.apps.analytics.urls')),
     path('api/messaging/', include('foundation.apps.messaging.urls')),
     path('api/moderation/', include('foundation.apps.moderation.urls')),
-    
+
+    # Phase 1 & 2 Apps APIs
+    path('api/billing/', include('foundation.apps.billing.urls')),
+    path('api/notifications/', include('foundation.apps.notifications.urls')),
+    path('api/rate-limiting/', include('foundation.apps.rate_limiting.urls')),
+    path('api/feature-flags/', include('foundation.apps.feature_flags.urls')),
+    path('api/files/', include('foundation.apps.files.urls')),
+    path('api/data-exchange/', include('foundation.apps.data_exchange.urls')),
+    path('api/search/', include('foundation.apps.search.urls')),
+
     # Authentication URLs (django-allauth)
     path('auth/', include('allauth.urls')),
 ]
