@@ -42,6 +42,10 @@ FOUNDATION_APPS = [
     'foundation.apps.files.apps.FilesConfig',
     'foundation.apps.data_exchange.apps.DataExchangeConfig',
     'foundation.apps.search.apps.SearchConfig',
+    # Phase 3+ additions
+    'foundation.apps.audit.apps.AuditConfig',
+    'foundation.apps.workflows.apps.WorkflowsConfig',
+    'foundation.apps.i18n.apps.I18nConfig',
 ]
 
 # Django built-in apps
